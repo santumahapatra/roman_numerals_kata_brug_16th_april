@@ -82,7 +82,6 @@ class RomanNumeralsTest < Minitest::Test
 
   # Don't forget to define a constant VERSION inside of Fixnum.
   def test_bookkeeping
-    skip
     assert_equal 1, Fixnum::VERSION
   end
 end

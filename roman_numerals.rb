@@ -1,4 +1,6 @@
 class Fixnum
+  Fixnum::VERSION = 1
+
   ROMAN_NUMERAL = {
     1 =>"I",
     4 => "IV",
